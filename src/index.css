@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .operator{
+        @apply 
+    }
+}
+
+@layer utilities{
+    .transparent-background {
+        background-color: rgba(178, 218, 255, 0.5);
+    }
+}
