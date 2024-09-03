@@ -22,8 +22,8 @@ const Kalkulator = () => {
   };
 
   return (
-    <section className=''>
-    <div className='bg-secondary w-[350px] h-[600px] flex flex-col items-center justify-center gap-10 px-3 py-10 ml-96 mt-5 rounded-2xl'>
+    <section className='flex items-center justify-center min-h-screen bg-gray-100'>
+    <div className='bg-secondary w-[350px] h-[600px] flex flex-col items-center justify-center gap-10 px-3 py-10 rounded-2xl'>
       <div>
         <input
         className='bg-secondary w-[320px] h-[150px] text-6xl font-semibold text-white text-right px-4 mt-4 mb-2 rounded-xl'
